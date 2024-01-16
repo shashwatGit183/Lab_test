@@ -1,0 +1,17 @@
+26th Dec, 2023 MONGO DB
+
+by default, the upsert method is false.(upsert:<boolean>)
+
+id condition matches, then updates if not, then inserts
+
+
+findAndModify() - If found, then updates the method.
+if not, then inserts a new document in the collection.
+
+
+skip() ---> If skip(2).limit(2) shuru ke 2 skip hue and the third and fourth was printed 
+
+in such combinations, the latest entries are taken into consideration
+Repetetive combinations of methods is not allowed in this.
+
+Right-most functions will work if they are used in sequence and same combination
